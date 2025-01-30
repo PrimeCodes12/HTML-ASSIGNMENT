@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+body {
+    font-family: serif;
+}
+
+table {
+    background-color: white;
+}
+
+table, tr, th, td{
+    border: 5px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+}
+
+.THead {
+    background-color: aqua;
+}
+
+nav {
+    float: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 5px;
+  
+    position: relative;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
